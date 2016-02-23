@@ -1,7 +1,16 @@
 # cross-domain-webservices
+---
 Sample cross domain webservice json
 
-###Code
+###File
++ config.php `setting database connection`
++ json `get data from server [local]`
++ keepalive.php `open connection and post data from server [server]`
++ medoo.min.php `mini framwork`
++ post-member.php `to post data to server`
+
+
+###Clone
 ```git
 echo "# cross-domain-webservices" >> README.md
 git init
