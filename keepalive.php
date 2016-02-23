@@ -3,7 +3,7 @@
 require_once 'config.php';
 
 
-$data = $db->select('jalan', '*');
+$data = $db->select('member', '*');
 
 // buat cros domain
 header('Access-Control-Allow-Origin: *');
