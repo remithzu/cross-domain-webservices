@@ -5,8 +5,9 @@ require_once 'config.php';
 
 $data = $db->select('member', '*');
 
-// buat cros domain
+// create cros domain
 header('Access-Control-Allow-Origin: *');
-// buat nampilin json
+
+// displaying on json
 header('Content-Type: application/json');
 echo json_encode($data);
