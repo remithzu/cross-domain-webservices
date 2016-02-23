@@ -5,10 +5,10 @@ require_once 'medoo.min.php';
 $db = new medoo([
 	// required
 	'database_type' => 'mysql',
-	'database_name' => 'remithzu_putlkj',
+	'database_name' => 'test_db',
 	'server' => 'localhost',
-	'username' => 'remithzu_pu',
-	'password' => '98k9nN6h6C2',
+	'username' => 'root',
+	'password' => '',
 	'charset' => 'utf8',
 ]);
 
