@@ -1,0 +1,4 @@
+$.getJSON('http://localhost/sample-crossdomain/index.php', function(data){
+	
+	//data
+});
